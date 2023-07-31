@@ -1,0 +1,18 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :osx, '10.10'
+
+workspace 'TestProject'
+
+target 'YMDisplay' do
+	platform :osx, '10.10'
+  	project 'DisplayTest/YMDisplay.xcodeproj'
+    pod 'TDClosedResource/YMToolLibrary', :git => 'git@gitlab.zuler.sh:ToDeskOS/TDClosedSource.git'
+    
+end
+
+target 'VirtualDisplay' do
+	platform :osx, '10.10'
+  	project 'DisplayLibrary/VirtualDisplay.xcodeproj'
+    #pod 'TDClosedResource/libVirtualDisplay', :git => 'git@gitlab.zuler.sh:ToDeskOS/TDClosedSource.git'
+end
+

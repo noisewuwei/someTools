@@ -1,0 +1,861 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60481362228A5A9F00EF5942 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60481361228A5A9F00EF5942 /* AppDelegate.m */; };
+		60481365228A5A9F00EF5942 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60481364228A5A9F00EF5942 /* ViewController.m */; };
+		6048136A228A5AA000EF5942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60481369228A5AA000EF5942 /* Assets.xcassets */; };
+		6048136D228A5AA000EF5942 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6048136B228A5AA000EF5942 /* LaunchScreen.storyboard */; };
+		60481370228A5AA000EF5942 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6048136F228A5AA000EF5942 /* main.m */; };
+		6048137A228A5AA000EF5942 /* YMNetworkDiagnosisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60481379228A5AA000EF5942 /* YMNetworkDiagnosisTests.m */; };
+		60481385228A5AA000EF5942 /* YMNetworkDiagnosisUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60481384228A5AA000EF5942 /* YMNetworkDiagnosisUITests.m */; };
+		604813AA228A5B7B00EF5942 /* NSData+YMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 60481398228A5B7B00EF5942 /* NSData+YMCategory.m */; };
+		604813AB228A5B7B00EF5942 /* NSDate+YMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6048139A228A5B7B00EF5942 /* NSDate+YMCategory.m */; };
+		604813AC228A5B7B00EF5942 /* NSDictionary+YMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6048139C228A5B7B00EF5942 /* NSDictionary+YMCategory.m */; };
+		604813AD228A5B7B00EF5942 /* NSString+YMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6048139E228A5B7B00EF5942 /* NSString+YMCategory.m */; };
+		604813AE228A5B7B00EF5942 /* UIButton+YMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 604813A0228A5B7B00EF5942 /* UIButton+YMCategory.m */; };
+		604813AF228A5B7B00EF5942 /* UIColor+YMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 604813A2228A5B7B00EF5942 /* UIColor+YMCategory.m */; };
+		604813B0228A5B7B00EF5942 /* UIFont+YMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 604813A4228A5B7B00EF5942 /* UIFont+YMCategory.m */; };
+		604813B1228A5B7B00EF5942 /* UITableView+YMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 604813A6228A5B7B00EF5942 /* UITableView+YMCategory.m */; };
+		604813B6228A5C9600EF5942 /* YQ_Macros.m in Sources */ = {isa = PBXBuildFile; fileRef = 604813B5228A5C9600EF5942 /* YQ_Macros.m */; };
+		604813BB228A5E1500EF5942 /* YMViewControllerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 604813BA228A5E1500EF5942 /* YMViewControllerModel.m */; };
+		604813C0228A5E7500EF5942 /* YMPingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 604813BF228A5E7500EF5942 /* YMPingVC.m */; };
+		604813C4228A5F0100EF5942 /* YMHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 604813C3228A5F0100EF5942 /* YMHomeCell.m */; };
+		604813CA228A65C600EF5942 /* YMLogTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 604813C9228A65C600EF5942 /* YMLogTextView.m */; };
+		604813CE228A66C200EF5942 /* YMNetworkDiagnoser.m in Sources */ = {isa = PBXBuildFile; fileRef = 604813CD228A66C200EF5942 /* YMNetworkDiagnoser.m */; };
+		604813D1228A680A00EF5942 /* YMNetworkDiagnoserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 604813D0228A680A00EF5942 /* YMNetworkDiagnoserModel.m */; };
+		604813D4228A691400EF5942 /* YMNetworkPingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 604813D3228A691400EF5942 /* YMNetworkPingHelper.m */; };
+		604813D8228A6C7B00EF5942 /* YMNetworkSimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 604813D7228A6C7B00EF5942 /* YMNetworkSimplePing.m */; };
+		604813DB228A74D600EF5942 /* YMNetworkDiagnoserTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 604813DA228A74D600EF5942 /* YMNetworkDiagnoserTimer.m */; };
+		604813DF228A756000EF5942 /* YMNetworkDiagnoserAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 604813DE228A756000EF5942 /* YMNetworkDiagnoserAddress.m */; };
+		604813E2228A75CD00EF5942 /* YMNetworkDiagnoserEnum.m in Sources */ = {isa = PBXBuildFile; fileRef = 604813E1228A75CD00EF5942 /* YMNetworkDiagnoserEnum.m */; };
+		604813E5228A8F2800EF5942 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 604813E4228A8F2800EF5942 /* libsqlite3.0.tbd */; };
+		604813E7228A8F3100EF5942 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 604813E6228A8F3100EF5942 /* libresolv.tbd */; };
+		604813E9228A8F3600EF5942 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604813E8228A8F3600EF5942 /* CoreTelephony.framework */; };
+		C3B76DB61F67CE67E08B4FA1 /* Pods_YMNetworkDiagnosis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59CD0A7BDB8943324F95155 /* Pods_YMNetworkDiagnosis.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60481376228A5AA000EF5942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60481355228A5A9F00EF5942 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6048135C228A5A9F00EF5942;
+			remoteInfo = YMNetworkDiagnosis;
+		};
+		60481381228A5AA000EF5942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60481355228A5A9F00EF5942 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6048135C228A5A9F00EF5942;
+			remoteInfo = YMNetworkDiagnosis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		261440218227D4C1ED859676 /* Pods-YMNetworkDiagnosis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMNetworkDiagnosis.release.xcconfig"; path = "Target Support Files/Pods-YMNetworkDiagnosis/Pods-YMNetworkDiagnosis.release.xcconfig"; sourceTree = "<group>"; };
+		6048135D228A5A9F00EF5942 /* YMNetworkDiagnosis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMNetworkDiagnosis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60481360228A5A9F00EF5942 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60481361228A5A9F00EF5942 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60481363228A5A9F00EF5942 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60481364228A5A9F00EF5942 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60481369228A5AA000EF5942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6048136C228A5AA000EF5942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6048136E228A5AA000EF5942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6048136F228A5AA000EF5942 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60481375228A5AA000EF5942 /* YMNetworkDiagnosisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMNetworkDiagnosisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60481379228A5AA000EF5942 /* YMNetworkDiagnosisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMNetworkDiagnosisTests.m; sourceTree = "<group>"; };
+		6048137B228A5AA000EF5942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60481380228A5AA000EF5942 /* YMNetworkDiagnosisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMNetworkDiagnosisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60481384228A5AA000EF5942 /* YMNetworkDiagnosisUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMNetworkDiagnosisUITests.m; sourceTree = "<group>"; };
+		60481386228A5AA000EF5942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60481394228A5B7B00EF5942 /* CategoryHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryHeader.h; sourceTree = "<group>"; };
+		60481397228A5B7B00EF5942 /* NSData+YMCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+YMCategory.h"; sourceTree = "<group>"; };
+		60481398228A5B7B00EF5942 /* NSData+YMCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+YMCategory.m"; sourceTree = "<group>"; };
+		60481399228A5B7B00EF5942 /* NSDate+YMCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+YMCategory.h"; sourceTree = "<group>"; };
+		6048139A228A5B7B00EF5942 /* NSDate+YMCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YMCategory.m"; sourceTree = "<group>"; };
+		6048139B228A5B7B00EF5942 /* NSDictionary+YMCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+YMCategory.h"; sourceTree = "<group>"; };
+		6048139C228A5B7B00EF5942 /* NSDictionary+YMCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+YMCategory.m"; sourceTree = "<group>"; };
+		6048139D228A5B7B00EF5942 /* NSString+YMCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YMCategory.h"; sourceTree = "<group>"; };
+		6048139E228A5B7B00EF5942 /* NSString+YMCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YMCategory.m"; sourceTree = "<group>"; };
+		6048139F228A5B7B00EF5942 /* UIButton+YMCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+YMCategory.h"; sourceTree = "<group>"; };
+		604813A0228A5B7B00EF5942 /* UIButton+YMCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+YMCategory.m"; sourceTree = "<group>"; };
+		604813A1228A5B7B00EF5942 /* UIColor+YMCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+YMCategory.h"; sourceTree = "<group>"; };
+		604813A2228A5B7B00EF5942 /* UIColor+YMCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YMCategory.m"; sourceTree = "<group>"; };
+		604813A3228A5B7B00EF5942 /* UIFont+YMCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+YMCategory.h"; sourceTree = "<group>"; };
+		604813A4228A5B7B00EF5942 /* UIFont+YMCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+YMCategory.m"; sourceTree = "<group>"; };
+		604813A5228A5B7B00EF5942 /* UITableView+YMCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+YMCategory.h"; sourceTree = "<group>"; };
+		604813A6228A5B7B00EF5942 /* UITableView+YMCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+YMCategory.m"; sourceTree = "<group>"; };
+		604813B4228A5C9600EF5942 /* YQ_Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQ_Macros.h; sourceTree = "<group>"; };
+		604813B5228A5C9600EF5942 /* YQ_Macros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQ_Macros.m; sourceTree = "<group>"; };
+		604813B9228A5E1500EF5942 /* YMViewControllerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMViewControllerModel.h; sourceTree = "<group>"; };
+		604813BA228A5E1500EF5942 /* YMViewControllerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMViewControllerModel.m; sourceTree = "<group>"; };
+		604813BE228A5E7500EF5942 /* YMPingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMPingVC.h; sourceTree = "<group>"; };
+		604813BF228A5E7500EF5942 /* YMPingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMPingVC.m; sourceTree = "<group>"; };
+		604813C2228A5F0100EF5942 /* YMHomeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMHomeCell.h; sourceTree = "<group>"; };
+		604813C3228A5F0100EF5942 /* YMHomeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMHomeCell.m; sourceTree = "<group>"; };
+		604813C8228A65C600EF5942 /* YMLogTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMLogTextView.h; sourceTree = "<group>"; };
+		604813C9228A65C600EF5942 /* YMLogTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMLogTextView.m; sourceTree = "<group>"; };
+		604813CC228A66C200EF5942 /* YMNetworkDiagnoser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMNetworkDiagnoser.h; sourceTree = "<group>"; };
+		604813CD228A66C200EF5942 /* YMNetworkDiagnoser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMNetworkDiagnoser.m; sourceTree = "<group>"; };
+		604813CF228A680A00EF5942 /* YMNetworkDiagnoserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMNetworkDiagnoserModel.h; sourceTree = "<group>"; };
+		604813D0228A680A00EF5942 /* YMNetworkDiagnoserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMNetworkDiagnoserModel.m; sourceTree = "<group>"; };
+		604813D2228A691400EF5942 /* YMNetworkPingHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMNetworkPingHelper.h; sourceTree = "<group>"; };
+		604813D3228A691400EF5942 /* YMNetworkPingHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMNetworkPingHelper.m; sourceTree = "<group>"; };
+		604813D6228A6C7B00EF5942 /* YMNetworkSimplePing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMNetworkSimplePing.h; sourceTree = "<group>"; };
+		604813D7228A6C7B00EF5942 /* YMNetworkSimplePing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMNetworkSimplePing.m; sourceTree = "<group>"; };
+		604813D9228A74D600EF5942 /* YMNetworkDiagnoserTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMNetworkDiagnoserTimer.h; sourceTree = "<group>"; };
+		604813DA228A74D600EF5942 /* YMNetworkDiagnoserTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMNetworkDiagnoserTimer.m; sourceTree = "<group>"; };
+		604813DD228A756000EF5942 /* YMNetworkDiagnoserAddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMNetworkDiagnoserAddress.h; sourceTree = "<group>"; };
+		604813DE228A756000EF5942 /* YMNetworkDiagnoserAddress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMNetworkDiagnoserAddress.m; sourceTree = "<group>"; };
+		604813E0228A75CD00EF5942 /* YMNetworkDiagnoserEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMNetworkDiagnoserEnum.h; sourceTree = "<group>"; };
+		604813E1228A75CD00EF5942 /* YMNetworkDiagnoserEnum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMNetworkDiagnoserEnum.m; sourceTree = "<group>"; };
+		604813E3228A8E3400EF5942 /* YMRoute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMRoute.h; sourceTree = "<group>"; };
+		604813E4228A8F2800EF5942 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		604813E6228A8F3100EF5942 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		604813E8228A8F3600EF5942 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		88BCD3B2B3C7104FAE0F9799 /* Pods-YMNetworkDiagnosis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMNetworkDiagnosis.debug.xcconfig"; path = "Target Support Files/Pods-YMNetworkDiagnosis/Pods-YMNetworkDiagnosis.debug.xcconfig"; sourceTree = "<group>"; };
+		B59CD0A7BDB8943324F95155 /* Pods_YMNetworkDiagnosis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YMNetworkDiagnosis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6048135A228A5A9F00EF5942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604813E9228A8F3600EF5942 /* CoreTelephony.framework in Frameworks */,
+				604813E7228A8F3100EF5942 /* libresolv.tbd in Frameworks */,
+				604813E5228A8F2800EF5942 /* libsqlite3.0.tbd in Frameworks */,
+				C3B76DB61F67CE67E08B4FA1 /* Pods_YMNetworkDiagnosis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60481372228A5AA000EF5942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6048137D228A5AA000EF5942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60481354228A5A9F00EF5942 = {
+			isa = PBXGroup;
+			children = (
+				6048135F228A5A9F00EF5942 /* YMNetworkDiagnosis */,
+				60481378228A5AA000EF5942 /* YMNetworkDiagnosisTests */,
+				60481383228A5AA000EF5942 /* YMNetworkDiagnosisUITests */,
+				6048135E228A5A9F00EF5942 /* Products */,
+				B29A05C71B9ABBF6B71173CC /* Pods */,
+				F8A82244E07C6785F997D9EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6048135E228A5A9F00EF5942 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6048135D228A5A9F00EF5942 /* YMNetworkDiagnosis.app */,
+				60481375228A5AA000EF5942 /* YMNetworkDiagnosisTests.xctest */,
+				60481380228A5AA000EF5942 /* YMNetworkDiagnosisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6048135F228A5A9F00EF5942 /* YMNetworkDiagnosis */ = {
+			isa = PBXGroup;
+			children = (
+				604813CB228A66A300EF5942 /* Tool */,
+				604813B8228A5DF100EF5942 /* Util */,
+				60481393228A5B7B00EF5942 /* Category */,
+				604813B7228A5DE400EF5942 /* Class */,
+				60481360228A5A9F00EF5942 /* AppDelegate.h */,
+				60481361228A5A9F00EF5942 /* AppDelegate.m */,
+				60481363228A5A9F00EF5942 /* ViewController.h */,
+				60481364228A5A9F00EF5942 /* ViewController.m */,
+				60481369228A5AA000EF5942 /* Assets.xcassets */,
+				6048136B228A5AA000EF5942 /* LaunchScreen.storyboard */,
+				6048136E228A5AA000EF5942 /* Info.plist */,
+				6048136F228A5AA000EF5942 /* main.m */,
+			);
+			path = YMNetworkDiagnosis;
+			sourceTree = "<group>";
+		};
+		60481378228A5AA000EF5942 /* YMNetworkDiagnosisTests */ = {
+			isa = PBXGroup;
+			children = (
+				60481379228A5AA000EF5942 /* YMNetworkDiagnosisTests.m */,
+				6048137B228A5AA000EF5942 /* Info.plist */,
+			);
+			path = YMNetworkDiagnosisTests;
+			sourceTree = "<group>";
+		};
+		60481383228A5AA000EF5942 /* YMNetworkDiagnosisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60481384228A5AA000EF5942 /* YMNetworkDiagnosisUITests.m */,
+				60481386228A5AA000EF5942 /* Info.plist */,
+			);
+			path = YMNetworkDiagnosisUITests;
+			sourceTree = "<group>";
+		};
+		60481393228A5B7B00EF5942 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				60481394228A5B7B00EF5942 /* CategoryHeader.h */,
+				60481397228A5B7B00EF5942 /* NSData+YMCategory.h */,
+				60481398228A5B7B00EF5942 /* NSData+YMCategory.m */,
+				60481399228A5B7B00EF5942 /* NSDate+YMCategory.h */,
+				6048139A228A5B7B00EF5942 /* NSDate+YMCategory.m */,
+				6048139B228A5B7B00EF5942 /* NSDictionary+YMCategory.h */,
+				6048139C228A5B7B00EF5942 /* NSDictionary+YMCategory.m */,
+				6048139D228A5B7B00EF5942 /* NSString+YMCategory.h */,
+				6048139E228A5B7B00EF5942 /* NSString+YMCategory.m */,
+				6048139F228A5B7B00EF5942 /* UIButton+YMCategory.h */,
+				604813A0228A5B7B00EF5942 /* UIButton+YMCategory.m */,
+				604813A1228A5B7B00EF5942 /* UIColor+YMCategory.h */,
+				604813A2228A5B7B00EF5942 /* UIColor+YMCategory.m */,
+				604813A3228A5B7B00EF5942 /* UIFont+YMCategory.h */,
+				604813A4228A5B7B00EF5942 /* UIFont+YMCategory.m */,
+				604813A5228A5B7B00EF5942 /* UITableView+YMCategory.h */,
+				604813A6228A5B7B00EF5942 /* UITableView+YMCategory.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		604813B7228A5DE400EF5942 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				604813C1228A5EE800EF5942 /* View */,
+				604813BD228A5E6100EF5942 /* ViewController */,
+				604813BC228A5E5B00EF5942 /* Model */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		604813B8228A5DF100EF5942 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				604813B4228A5C9600EF5942 /* YQ_Macros.h */,
+				604813B5228A5C9600EF5942 /* YQ_Macros.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		604813BC228A5E5B00EF5942 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				604813B9228A5E1500EF5942 /* YMViewControllerModel.h */,
+				604813BA228A5E1500EF5942 /* YMViewControllerModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		604813BD228A5E6100EF5942 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				604813BE228A5E7500EF5942 /* YMPingVC.h */,
+				604813BF228A5E7500EF5942 /* YMPingVC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		604813C1228A5EE800EF5942 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				604813C2228A5F0100EF5942 /* YMHomeCell.h */,
+				604813C3228A5F0100EF5942 /* YMHomeCell.m */,
+				604813C8228A65C600EF5942 /* YMLogTextView.h */,
+				604813C9228A65C600EF5942 /* YMLogTextView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		604813CB228A66A300EF5942 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				604813E3228A8E3400EF5942 /* YMRoute.h */,
+				604813E0228A75CD00EF5942 /* YMNetworkDiagnoserEnum.h */,
+				604813E1228A75CD00EF5942 /* YMNetworkDiagnoserEnum.m */,
+				604813DC228A754500EF5942 /* Model */,
+				604813D5228A6C5E00EF5942 /* Ping */,
+				604813CC228A66C200EF5942 /* YMNetworkDiagnoser.h */,
+				604813CD228A66C200EF5942 /* YMNetworkDiagnoser.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		604813D5228A6C5E00EF5942 /* Ping */ = {
+			isa = PBXGroup;
+			children = (
+				604813D2228A691400EF5942 /* YMNetworkPingHelper.h */,
+				604813D3228A691400EF5942 /* YMNetworkPingHelper.m */,
+				604813D6228A6C7B00EF5942 /* YMNetworkSimplePing.h */,
+				604813D7228A6C7B00EF5942 /* YMNetworkSimplePing.m */,
+			);
+			path = Ping;
+			sourceTree = "<group>";
+		};
+		604813DC228A754500EF5942 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				604813CF228A680A00EF5942 /* YMNetworkDiagnoserModel.h */,
+				604813D0228A680A00EF5942 /* YMNetworkDiagnoserModel.m */,
+				604813D9228A74D600EF5942 /* YMNetworkDiagnoserTimer.h */,
+				604813DA228A74D600EF5942 /* YMNetworkDiagnoserTimer.m */,
+				604813DD228A756000EF5942 /* YMNetworkDiagnoserAddress.h */,
+				604813DE228A756000EF5942 /* YMNetworkDiagnoserAddress.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B29A05C71B9ABBF6B71173CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88BCD3B2B3C7104FAE0F9799 /* Pods-YMNetworkDiagnosis.debug.xcconfig */,
+				261440218227D4C1ED859676 /* Pods-YMNetworkDiagnosis.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F8A82244E07C6785F997D9EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				604813E8228A8F3600EF5942 /* CoreTelephony.framework */,
+				604813E6228A8F3100EF5942 /* libresolv.tbd */,
+				604813E4228A8F2800EF5942 /* libsqlite3.0.tbd */,
+				B59CD0A7BDB8943324F95155 /* Pods_YMNetworkDiagnosis.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6048135C228A5A9F00EF5942 /* YMNetworkDiagnosis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60481389228A5AA000EF5942 /* Build configuration list for PBXNativeTarget "YMNetworkDiagnosis" */;
+			buildPhases = (
+				E6F18624FADF3CF2C6C668EC /* [CP] Check Pods Manifest.lock */,
+				60481359228A5A9F00EF5942 /* Sources */,
+				6048135A228A5A9F00EF5942 /* Frameworks */,
+				6048135B228A5A9F00EF5942 /* Resources */,
+				08C4B93562E658DBA54F013B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMNetworkDiagnosis;
+			productName = YMNetworkDiagnosis;
+			productReference = 6048135D228A5A9F00EF5942 /* YMNetworkDiagnosis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60481374228A5AA000EF5942 /* YMNetworkDiagnosisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6048138C228A5AA000EF5942 /* Build configuration list for PBXNativeTarget "YMNetworkDiagnosisTests" */;
+			buildPhases = (
+				60481371228A5AA000EF5942 /* Sources */,
+				60481372228A5AA000EF5942 /* Frameworks */,
+				60481373228A5AA000EF5942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60481377228A5AA000EF5942 /* PBXTargetDependency */,
+			);
+			name = YMNetworkDiagnosisTests;
+			productName = YMNetworkDiagnosisTests;
+			productReference = 60481375228A5AA000EF5942 /* YMNetworkDiagnosisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6048137F228A5AA000EF5942 /* YMNetworkDiagnosisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6048138F228A5AA000EF5942 /* Build configuration list for PBXNativeTarget "YMNetworkDiagnosisUITests" */;
+			buildPhases = (
+				6048137C228A5AA000EF5942 /* Sources */,
+				6048137D228A5AA000EF5942 /* Frameworks */,
+				6048137E228A5AA000EF5942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60481382228A5AA000EF5942 /* PBXTargetDependency */,
+			);
+			name = YMNetworkDiagnosisUITests;
+			productName = YMNetworkDiagnosisUITests;
+			productReference = 60481380228A5AA000EF5942 /* YMNetworkDiagnosisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60481355228A5A9F00EF5942 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "黄玉洲";
+				TargetAttributes = {
+					6048135C228A5A9F00EF5942 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					60481374228A5AA000EF5942 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6048135C228A5A9F00EF5942;
+					};
+					6048137F228A5AA000EF5942 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6048135C228A5A9F00EF5942;
+					};
+				};
+			};
+			buildConfigurationList = 60481358228A5A9F00EF5942 /* Build configuration list for PBXProject "YMNetworkDiagnosis" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60481354228A5A9F00EF5942;
+			productRefGroup = 6048135E228A5A9F00EF5942 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6048135C228A5A9F00EF5942 /* YMNetworkDiagnosis */,
+				60481374228A5AA000EF5942 /* YMNetworkDiagnosisTests */,
+				6048137F228A5AA000EF5942 /* YMNetworkDiagnosisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6048135B228A5A9F00EF5942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6048136D228A5AA000EF5942 /* LaunchScreen.storyboard in Resources */,
+				6048136A228A5AA000EF5942 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60481373228A5AA000EF5942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6048137E228A5AA000EF5942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08C4B93562E658DBA54F013B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YMNetworkDiagnosis/Pods-YMNetworkDiagnosis-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YMNetworkDiagnosis/Pods-YMNetworkDiagnosis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6F18624FADF3CF2C6C668EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YMNetworkDiagnosis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60481359228A5A9F00EF5942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604813C0228A5E7500EF5942 /* YMPingVC.m in Sources */,
+				60481365228A5A9F00EF5942 /* ViewController.m in Sources */,
+				604813CA228A65C600EF5942 /* YMLogTextView.m in Sources */,
+				604813D1228A680A00EF5942 /* YMNetworkDiagnoserModel.m in Sources */,
+				604813D8228A6C7B00EF5942 /* YMNetworkSimplePing.m in Sources */,
+				604813B0228A5B7B00EF5942 /* UIFont+YMCategory.m in Sources */,
+				604813DF228A756000EF5942 /* YMNetworkDiagnoserAddress.m in Sources */,
+				604813DB228A74D600EF5942 /* YMNetworkDiagnoserTimer.m in Sources */,
+				604813E2228A75CD00EF5942 /* YMNetworkDiagnoserEnum.m in Sources */,
+				604813AC228A5B7B00EF5942 /* NSDictionary+YMCategory.m in Sources */,
+				604813AA228A5B7B00EF5942 /* NSData+YMCategory.m in Sources */,
+				604813AE228A5B7B00EF5942 /* UIButton+YMCategory.m in Sources */,
+				604813C4228A5F0100EF5942 /* YMHomeCell.m in Sources */,
+				604813AB228A5B7B00EF5942 /* NSDate+YMCategory.m in Sources */,
+				604813AF228A5B7B00EF5942 /* UIColor+YMCategory.m in Sources */,
+				604813B6228A5C9600EF5942 /* YQ_Macros.m in Sources */,
+				604813B1228A5B7B00EF5942 /* UITableView+YMCategory.m in Sources */,
+				60481370228A5AA000EF5942 /* main.m in Sources */,
+				60481362228A5A9F00EF5942 /* AppDelegate.m in Sources */,
+				604813BB228A5E1500EF5942 /* YMViewControllerModel.m in Sources */,
+				604813D4228A691400EF5942 /* YMNetworkPingHelper.m in Sources */,
+				604813CE228A66C200EF5942 /* YMNetworkDiagnoser.m in Sources */,
+				604813AD228A5B7B00EF5942 /* NSString+YMCategory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60481371228A5AA000EF5942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6048137A228A5AA000EF5942 /* YMNetworkDiagnosisTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6048137C228A5AA000EF5942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60481385228A5AA000EF5942 /* YMNetworkDiagnosisUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60481377228A5AA000EF5942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6048135C228A5A9F00EF5942 /* YMNetworkDiagnosis */;
+			targetProxy = 60481376228A5AA000EF5942 /* PBXContainerItemProxy */;
+		};
+		60481382228A5AA000EF5942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6048135C228A5A9F00EF5942 /* YMNetworkDiagnosis */;
+			targetProxy = 60481381228A5AA000EF5942 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6048136B228A5AA000EF5942 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6048136C228A5AA000EF5942 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60481387228A5AA000EF5942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60481388228A5AA000EF5942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6048138A228A5AA000EF5942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88BCD3B2B3C7104FAE0F9799 /* Pods-YMNetworkDiagnosis.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4HG585NJU;
+				ENABLE_BITCODE = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YMNetworkDiagnosis/Util/YQ_Macros.h";
+				INFOPLIST_FILE = YMNetworkDiagnosis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hyz.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6048138B228A5AA000EF5942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 261440218227D4C1ED859676 /* Pods-YMNetworkDiagnosis.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4HG585NJU;
+				ENABLE_BITCODE = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YMNetworkDiagnosis/Util/YQ_Macros.h";
+				INFOPLIST_FILE = YMNetworkDiagnosis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hyz.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6048138D228A5AA000EF5942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YMNetworkDiagnosisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hyz.test.YMNetworkDiagnosisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMNetworkDiagnosis.app/YMNetworkDiagnosis";
+			};
+			name = Debug;
+		};
+		6048138E228A5AA000EF5942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YMNetworkDiagnosisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hyz.test.YMNetworkDiagnosisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMNetworkDiagnosis.app/YMNetworkDiagnosis";
+			};
+			name = Release;
+		};
+		60481390228A5AA000EF5942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YMNetworkDiagnosisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hyz.test.YMNetworkDiagnosisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YMNetworkDiagnosis;
+			};
+			name = Debug;
+		};
+		60481391228A5AA000EF5942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YMNetworkDiagnosisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hyz.test.YMNetworkDiagnosisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YMNetworkDiagnosis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60481358228A5A9F00EF5942 /* Build configuration list for PBXProject "YMNetworkDiagnosis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60481387228A5AA000EF5942 /* Debug */,
+				60481388228A5AA000EF5942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60481389228A5AA000EF5942 /* Build configuration list for PBXNativeTarget "YMNetworkDiagnosis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6048138A228A5AA000EF5942 /* Debug */,
+				6048138B228A5AA000EF5942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6048138C228A5AA000EF5942 /* Build configuration list for PBXNativeTarget "YMNetworkDiagnosisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6048138D228A5AA000EF5942 /* Debug */,
+				6048138E228A5AA000EF5942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6048138F228A5AA000EF5942 /* Build configuration list for PBXNativeTarget "YMNetworkDiagnosisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60481390228A5AA000EF5942 /* Debug */,
+				60481391228A5AA000EF5942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60481355228A5A9F00EF5942 /* Project object */;
+}

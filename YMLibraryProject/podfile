@@ -1,0 +1,34 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :osx, '10.10'
+
+workspace 'TestProject'
+
+target 'YMTest' do
+	platform :osx, '10.10'
+  	project 'YMTest/YMTest.xcodeproj'
+end
+
+target 'YMCrypto' do
+	platform :osx, '10.10'
+  	project 'YMCrypto/YMCrypto.xcodeproj'
+end
+
+target 'YMCGSInternal' do
+	platform :osx, '10.11'
+  	project 'YMCGSInternal/YMCGSInternal.xcodeproj'
+end
+
+target 'YMWebrtc' do
+	platform :osx, '10.10'
+  	project 'YMWebrtc/YMWebrtc.xcodeproj'
+end
+
+target 'YMWebRTCLibrary' do
+	platform :osx, '10.10'
+  	project 'YMWebRTCLibrary/YMWebRTCLibrary.xcodeproj'
+end
+
+target 'YMCMDLibrary' do
+	platform :osx, '10.10'
+  	project 'YMCMDLibrary/YMCMDLibrary.xcodeproj'
+end

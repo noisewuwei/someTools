@@ -1,0 +1,19 @@
+//
+//  PrefixHeader.pch
+//  YM_PhotosPicker
+//
+//  Created by 蒋天宝 on 2021/2/20.
+//  Copyright © 2021 huangyuzhou. All rights reserved.
+//
+
+#pragma mark - 强弱引用
+/** weakSelf */
+#define kWeakSelf  \
+__weak __typeof(self) weakSelf = self;
+//@weakify(self);
+
+
+/** strongSelf */
+#define kStrongSelf \
+__strong __typeof(weakSelf) self = weakSelf;
+//@strongify(self);

@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0860876D20B47163003C79EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0860876C20B47163003C79EF /* AppDelegate.m */; };
+		0860877020B47163003C79EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0860876F20B47163003C79EF /* ViewController.m */; };
+		0860877320B47163003C79EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0860877120B47163003C79EF /* Main.storyboard */; };
+		0860877520B47163003C79EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0860877420B47163003C79EF /* Assets.xcassets */; };
+		0860877820B47163003C79EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0860877620B47163003C79EF /* LaunchScreen.storyboard */; };
+		0860877B20B47163003C79EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0860877A20B47163003C79EF /* main.m */; };
+		0860878520B47163003C79EF /* YM_DatePickViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0860878420B47163003C79EF /* YM_DatePickViewTests.m */; };
+		0860879020B47163003C79EF /* YM_DatePickViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0860878F20B47163003C79EF /* YM_DatePickViewUITests.m */; };
+		086087A020B471F9003C79EF /* YM_DatePickerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0860879F20B471F9003C79EF /* YM_DatePickerModel.m */; };
+		086087A320B4721D003C79EF /* YM_DatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 086087A220B4721D003C79EF /* YM_DatePickerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0860878120B47163003C79EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0860876020B47163003C79EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0860876720B47163003C79EF;
+			remoteInfo = YM_DatePickView;
+		};
+		0860878C20B47163003C79EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0860876020B47163003C79EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0860876720B47163003C79EF;
+			remoteInfo = YM_DatePickView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0860876820B47163003C79EF /* YM_DatePickView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YM_DatePickView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0860876B20B47163003C79EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0860876C20B47163003C79EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0860876E20B47163003C79EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0860876F20B47163003C79EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0860877220B47163003C79EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0860877420B47163003C79EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0860877720B47163003C79EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0860877920B47163003C79EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0860877A20B47163003C79EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0860878020B47163003C79EF /* YM_DatePickViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YM_DatePickViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0860878420B47163003C79EF /* YM_DatePickViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YM_DatePickViewTests.m; sourceTree = "<group>"; };
+		0860878620B47163003C79EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0860878B20B47163003C79EF /* YM_DatePickViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YM_DatePickViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0860878F20B47163003C79EF /* YM_DatePickViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YM_DatePickViewUITests.m; sourceTree = "<group>"; };
+		0860879120B47163003C79EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0860879E20B471F9003C79EF /* YM_DatePickerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YM_DatePickerModel.h; sourceTree = "<group>"; };
+		0860879F20B471F9003C79EF /* YM_DatePickerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YM_DatePickerModel.m; sourceTree = "<group>"; };
+		086087A120B4721D003C79EF /* YM_DatePickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YM_DatePickerView.h; sourceTree = "<group>"; };
+		086087A220B4721D003C79EF /* YM_DatePickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YM_DatePickerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0860876520B47163003C79EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0860877D20B47163003C79EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0860878820B47163003C79EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0860875F20B47163003C79EF = {
+			isa = PBXGroup;
+			children = (
+				0860876A20B47163003C79EF /* YM_DatePickView */,
+				0860878320B47163003C79EF /* YM_DatePickViewTests */,
+				0860878E20B47163003C79EF /* YM_DatePickViewUITests */,
+				0860876920B47163003C79EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0860876920B47163003C79EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0860876820B47163003C79EF /* YM_DatePickView.app */,
+				0860878020B47163003C79EF /* YM_DatePickViewTests.xctest */,
+				0860878B20B47163003C79EF /* YM_DatePickViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0860876A20B47163003C79EF /* YM_DatePickView */ = {
+			isa = PBXGroup;
+			children = (
+				0860879D20B471CE003C79EF /* 时间选择器 */,
+				0860876B20B47163003C79EF /* AppDelegate.h */,
+				0860876C20B47163003C79EF /* AppDelegate.m */,
+				0860876E20B47163003C79EF /* ViewController.h */,
+				0860876F20B47163003C79EF /* ViewController.m */,
+				0860877120B47163003C79EF /* Main.storyboard */,
+				0860877420B47163003C79EF /* Assets.xcassets */,
+				0860877620B47163003C79EF /* LaunchScreen.storyboard */,
+				0860877920B47163003C79EF /* Info.plist */,
+				0860877A20B47163003C79EF /* main.m */,
+			);
+			path = YM_DatePickView;
+			sourceTree = "<group>";
+		};
+		0860878320B47163003C79EF /* YM_DatePickViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				0860878420B47163003C79EF /* YM_DatePickViewTests.m */,
+				0860878620B47163003C79EF /* Info.plist */,
+			);
+			path = YM_DatePickViewTests;
+			sourceTree = "<group>";
+		};
+		0860878E20B47163003C79EF /* YM_DatePickViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0860878F20B47163003C79EF /* YM_DatePickViewUITests.m */,
+				0860879120B47163003C79EF /* Info.plist */,
+			);
+			path = YM_DatePickViewUITests;
+			sourceTree = "<group>";
+		};
+		0860879D20B471CE003C79EF /* 时间选择器 */ = {
+			isa = PBXGroup;
+			children = (
+				0860879E20B471F9003C79EF /* YM_DatePickerModel.h */,
+				0860879F20B471F9003C79EF /* YM_DatePickerModel.m */,
+				086087A120B4721D003C79EF /* YM_DatePickerView.h */,
+				086087A220B4721D003C79EF /* YM_DatePickerView.m */,
+			);
+			path = "时间选择器";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0860876720B47163003C79EF /* YM_DatePickView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0860879420B47163003C79EF /* Build configuration list for PBXNativeTarget "YM_DatePickView" */;
+			buildPhases = (
+				0860876420B47163003C79EF /* Sources */,
+				0860876520B47163003C79EF /* Frameworks */,
+				0860876620B47163003C79EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YM_DatePickView;
+			productName = YM_DatePickView;
+			productReference = 0860876820B47163003C79EF /* YM_DatePickView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0860877F20B47163003C79EF /* YM_DatePickViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0860879720B47163003C79EF /* Build configuration list for PBXNativeTarget "YM_DatePickViewTests" */;
+			buildPhases = (
+				0860877C20B47163003C79EF /* Sources */,
+				0860877D20B47163003C79EF /* Frameworks */,
+				0860877E20B47163003C79EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0860878220B47163003C79EF /* PBXTargetDependency */,
+			);
+			name = YM_DatePickViewTests;
+			productName = YM_DatePickViewTests;
+			productReference = 0860878020B47163003C79EF /* YM_DatePickViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0860878A20B47163003C79EF /* YM_DatePickViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0860879A20B47163003C79EF /* Build configuration list for PBXNativeTarget "YM_DatePickViewUITests" */;
+			buildPhases = (
+				0860878720B47163003C79EF /* Sources */,
+				0860878820B47163003C79EF /* Frameworks */,
+				0860878920B47163003C79EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0860878D20B47163003C79EF /* PBXTargetDependency */,
+			);
+			name = YM_DatePickViewUITests;
+			productName = YM_DatePickViewUITests;
+			productReference = 0860878B20B47163003C79EF /* YM_DatePickViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0860876020B47163003C79EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "黄玉洲";
+				TargetAttributes = {
+					0860876720B47163003C79EF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0860877F20B47163003C79EF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0860876720B47163003C79EF;
+					};
+					0860878A20B47163003C79EF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0860876720B47163003C79EF;
+					};
+				};
+			};
+			buildConfigurationList = 0860876320B47163003C79EF /* Build configuration list for PBXProject "YM_DatePickView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0860875F20B47163003C79EF;
+			productRefGroup = 0860876920B47163003C79EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0860876720B47163003C79EF /* YM_DatePickView */,
+				0860877F20B47163003C79EF /* YM_DatePickViewTests */,
+				0860878A20B47163003C79EF /* YM_DatePickViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0860876620B47163003C79EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0860877820B47163003C79EF /* LaunchScreen.storyboard in Resources */,
+				0860877520B47163003C79EF /* Assets.xcassets in Resources */,
+				0860877320B47163003C79EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0860877E20B47163003C79EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0860878920B47163003C79EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0860876420B47163003C79EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086087A320B4721D003C79EF /* YM_DatePickerView.m in Sources */,
+				0860877020B47163003C79EF /* ViewController.m in Sources */,
+				086087A020B471F9003C79EF /* YM_DatePickerModel.m in Sources */,
+				0860877B20B47163003C79EF /* main.m in Sources */,
+				0860876D20B47163003C79EF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0860877C20B47163003C79EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0860878520B47163003C79EF /* YM_DatePickViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0860878720B47163003C79EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0860879020B47163003C79EF /* YM_DatePickViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0860878220B47163003C79EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0860876720B47163003C79EF /* YM_DatePickView */;
+			targetProxy = 0860878120B47163003C79EF /* PBXContainerItemProxy */;
+		};
+		0860878D20B47163003C79EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0860876720B47163003C79EF /* YM_DatePickView */;
+			targetProxy = 0860878C20B47163003C79EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0860877120B47163003C79EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0860877220B47163003C79EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0860877620B47163003C79EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0860877720B47163003C79EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0860879220B47163003C79EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0860879320B47163003C79EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0860879520B47163003C79EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4HG585NJU;
+				INFOPLIST_FILE = YM_DatePickView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hyz.YM-DatePickView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0860879620B47163003C79EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4HG585NJU;
+				INFOPLIST_FILE = YM_DatePickView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hyz.YM-DatePickView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0860879820B47163003C79EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4HG585NJU;
+				INFOPLIST_FILE = YM_DatePickViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hyz.YM-DatePickViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YM_DatePickView.app/YM_DatePickView";
+			};
+			name = Debug;
+		};
+		0860879920B47163003C79EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4HG585NJU;
+				INFOPLIST_FILE = YM_DatePickViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hyz.YM-DatePickViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YM_DatePickView.app/YM_DatePickView";
+			};
+			name = Release;
+		};
+		0860879B20B47163003C79EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4HG585NJU;
+				INFOPLIST_FILE = YM_DatePickViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hyz.YM-DatePickViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YM_DatePickView;
+			};
+			name = Debug;
+		};
+		0860879C20B47163003C79EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4HG585NJU;
+				INFOPLIST_FILE = YM_DatePickViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hyz.YM-DatePickViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YM_DatePickView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0860876320B47163003C79EF /* Build configuration list for PBXProject "YM_DatePickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0860879220B47163003C79EF /* Debug */,
+				0860879320B47163003C79EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0860879420B47163003C79EF /* Build configuration list for PBXNativeTarget "YM_DatePickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0860879520B47163003C79EF /* Debug */,
+				0860879620B47163003C79EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0860879720B47163003C79EF /* Build configuration list for PBXNativeTarget "YM_DatePickViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0860879820B47163003C79EF /* Debug */,
+				0860879920B47163003C79EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0860879A20B47163003C79EF /* Build configuration list for PBXNativeTarget "YM_DatePickViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0860879B20B47163003C79EF /* Debug */,
+				0860879C20B47163003C79EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0860876020B47163003C79EF /* Project object */;
+}

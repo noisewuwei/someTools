@@ -1,0 +1,17 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+target 'YM_Category' do
+
+# 蒙层
+pod 'MBProgressHUD'
+pod "FFPopup"
+pod 'RMStore'
+pod 'Masonry'
+# 微信数据库
+pod "WCDB"
+# 蒙层
+pod 'MBProgressHUD'
+# Model
+pod 'YYModel'
+end

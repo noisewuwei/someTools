@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E01D767D288E82D40011E188 /* VirtualDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = E01D7670288E82D40011E188 /* VirtualDisplay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E01D7681288E82D40011E188 /* VirtualDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = E01D7674288E82D40011E188 /* VirtualDisplay.m */; };
+		E01D7683288E82D40011E188 /* DisplayDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = E01D7677288E82D40011E188 /* DisplayDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E01D7684288E82D40011E188 /* VirtualDisplayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E01D7678288E82D40011E188 /* VirtualDisplayManager.m */; };
+		E01D7685288E82D40011E188 /* DisplayResolution.m in Sources */ = {isa = PBXBuildFile; fileRef = E01D7679288E82D40011E188 /* DisplayResolution.m */; };
+		E01D7686288E82D40011E188 /* VirtualDisplayManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E01D767A288E82D40011E188 /* VirtualDisplayManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E01D7687288E82D40011E188 /* DisplayDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = E01D767B288E82D40011E188 /* DisplayDefinition.m */; };
+		E01D7688288E82D40011E188 /* DisplayResolution.h in Headers */ = {isa = PBXBuildFile; fileRef = E01D767C288E82D40011E188 /* DisplayResolution.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E09F98A228BEFD5000506FBE /* VirtualDisplayDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = E09F98A028BEFD5000506FBE /* VirtualDisplayDescriptor.h */; };
+		E09F98A328BEFD5000506FBE /* VirtualDisplayDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = E09F98A128BEFD5000506FBE /* VirtualDisplayDescriptor.m */; };
+		E09F98A628BF113200506FBE /* VirtualDisplaySettings.h in Headers */ = {isa = PBXBuildFile; fileRef = E09F98A428BF113200506FBE /* VirtualDisplaySettings.h */; };
+		E09F98A728BF113200506FBE /* VirtualDisplaySettings.m in Sources */ = {isa = PBXBuildFile; fileRef = E09F98A528BF113200506FBE /* VirtualDisplaySettings.m */; };
+		E09F98AA28BF15FA00506FBE /* VirtualDisplayMode.h in Headers */ = {isa = PBXBuildFile; fileRef = E09F98A828BF15FA00506FBE /* VirtualDisplayMode.h */; };
+		E09F98AB28BF15FA00506FBE /* VirtualDisplayMode.m in Sources */ = {isa = PBXBuildFile; fileRef = E09F98A928BF15FA00506FBE /* VirtualDisplayMode.m */; };
+		F8869B002AD9B7DA059F01D8 /* libPods-VirtualDisplay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F8D95D9531C0BA09092F83 /* libPods-VirtualDisplay.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E2F62F076C80393C997A863 /* Pods-VirtualDisplay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualDisplay.release.xcconfig"; path = "Target Support Files/Pods-VirtualDisplay/Pods-VirtualDisplay.release.xcconfig"; sourceTree = "<group>"; };
+		86B4C2B77ABE348B4E9F79BF /* Pods-VirtualDisplay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualDisplay.debug.xcconfig"; path = "Target Support Files/Pods-VirtualDisplay/Pods-VirtualDisplay.debug.xcconfig"; sourceTree = "<group>"; };
+		E01D764A288E806A0011E188 /* libVirtualDisplay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVirtualDisplay.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E01D7670288E82D40011E188 /* VirtualDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VirtualDisplay.h; sourceTree = "<group>"; };
+		E01D7674288E82D40011E188 /* VirtualDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VirtualDisplay.m; sourceTree = "<group>"; };
+		E01D7677288E82D40011E188 /* DisplayDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayDefinition.h; sourceTree = "<group>"; };
+		E01D7678288E82D40011E188 /* VirtualDisplayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VirtualDisplayManager.m; sourceTree = "<group>"; };
+		E01D7679288E82D40011E188 /* DisplayResolution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayResolution.m; sourceTree = "<group>"; };
+		E01D767A288E82D40011E188 /* VirtualDisplayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VirtualDisplayManager.h; sourceTree = "<group>"; };
+		E01D767B288E82D40011E188 /* DisplayDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayDefinition.m; sourceTree = "<group>"; };
+		E01D767C288E82D40011E188 /* DisplayResolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayResolution.h; sourceTree = "<group>"; };
+		E09F98A028BEFD5000506FBE /* VirtualDisplayDescriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VirtualDisplayDescriptor.h; sourceTree = "<group>"; };
+		E09F98A128BEFD5000506FBE /* VirtualDisplayDescriptor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VirtualDisplayDescriptor.m; sourceTree = "<group>"; };
+		E09F98A428BF113200506FBE /* VirtualDisplaySettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VirtualDisplaySettings.h; sourceTree = "<group>"; };
+		E09F98A528BF113200506FBE /* VirtualDisplaySettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VirtualDisplaySettings.m; sourceTree = "<group>"; };
+		E09F98A828BF15FA00506FBE /* VirtualDisplayMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VirtualDisplayMode.h; sourceTree = "<group>"; };
+		E09F98A928BF15FA00506FBE /* VirtualDisplayMode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VirtualDisplayMode.m; sourceTree = "<group>"; };
+		F3F8D95D9531C0BA09092F83 /* libPods-VirtualDisplay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VirtualDisplay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E01D7648288E806A0011E188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8869B002AD9B7DA059F01D8 /* libPods-VirtualDisplay.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06768676F2561A0910359AA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3F8D95D9531C0BA09092F83 /* libPods-VirtualDisplay.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E01D7641288E806A0011E188 = {
+			isa = PBXGroup;
+			children = (
+				E01D764C288E806A0011E188 /* VirtualDisplay */,
+				E01D764B288E806A0011E188 /* Products */,
+				E648A0A9EACAC449485DEA5E /* Pods */,
+				06768676F2561A0910359AA6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E01D764B288E806A0011E188 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E01D764A288E806A0011E188 /* libVirtualDisplay.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E01D764C288E806A0011E188 /* VirtualDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				E01D7676288E82D40011E188 /* VirtualDisplayTool */,
+				E01D766F288E82D40011E188 /* VirtualDisplay */,
+			);
+			path = VirtualDisplay;
+			sourceTree = "<group>";
+		};
+		E01D766F288E82D40011E188 /* VirtualDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				E01D7670288E82D40011E188 /* VirtualDisplay.h */,
+				E01D7674288E82D40011E188 /* VirtualDisplay.m */,
+				E09F98A028BEFD5000506FBE /* VirtualDisplayDescriptor.h */,
+				E09F98A128BEFD5000506FBE /* VirtualDisplayDescriptor.m */,
+				E09F98A428BF113200506FBE /* VirtualDisplaySettings.h */,
+				E09F98A528BF113200506FBE /* VirtualDisplaySettings.m */,
+				E09F98A828BF15FA00506FBE /* VirtualDisplayMode.h */,
+				E09F98A928BF15FA00506FBE /* VirtualDisplayMode.m */,
+			);
+			path = VirtualDisplay;
+			sourceTree = "<group>";
+		};
+		E01D7676288E82D40011E188 /* VirtualDisplayTool */ = {
+			isa = PBXGroup;
+			children = (
+				E01D7677288E82D40011E188 /* DisplayDefinition.h */,
+				E01D767B288E82D40011E188 /* DisplayDefinition.m */,
+				E01D767C288E82D40011E188 /* DisplayResolution.h */,
+				E01D7679288E82D40011E188 /* DisplayResolution.m */,
+				E01D767A288E82D40011E188 /* VirtualDisplayManager.h */,
+				E01D7678288E82D40011E188 /* VirtualDisplayManager.m */,
+			);
+			path = VirtualDisplayTool;
+			sourceTree = "<group>";
+		};
+		E648A0A9EACAC449485DEA5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86B4C2B77ABE348B4E9F79BF /* Pods-VirtualDisplay.debug.xcconfig */,
+				2E2F62F076C80393C997A863 /* Pods-VirtualDisplay.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E01D7646288E806A0011E188 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E09F98AA28BF15FA00506FBE /* VirtualDisplayMode.h in Headers */,
+				E01D7688288E82D40011E188 /* DisplayResolution.h in Headers */,
+				E09F98A628BF113200506FBE /* VirtualDisplaySettings.h in Headers */,
+				E01D767D288E82D40011E188 /* VirtualDisplay.h in Headers */,
+				E01D7683288E82D40011E188 /* DisplayDefinition.h in Headers */,
+				E01D7686288E82D40011E188 /* VirtualDisplayManager.h in Headers */,
+				E09F98A228BEFD5000506FBE /* VirtualDisplayDescriptor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E01D7649288E806A0011E188 /* VirtualDisplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E01D7653288E806A0011E188 /* Build configuration list for PBXNativeTarget "VirtualDisplay" */;
+			buildPhases = (
+				628117EA443BCD4934E5F464 /* [CP] Check Pods Manifest.lock */,
+				E01D7646288E806A0011E188 /* Headers */,
+				E01D7647288E806A0011E188 /* Sources */,
+				E01D7648288E806A0011E188 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtualDisplay;
+			productName = VirtualDisplay;
+			productReference = E01D764A288E806A0011E188 /* libVirtualDisplay.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E01D7642288E806A0011E188 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					E01D7649288E806A0011E188 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E01D7645288E806A0011E188 /* Build configuration list for PBXProject "VirtualDisplay" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E01D7641288E806A0011E188;
+			productRefGroup = E01D764B288E806A0011E188 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E01D7649288E806A0011E188 /* VirtualDisplay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		628117EA443BCD4934E5F464 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VirtualDisplay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E01D7647288E806A0011E188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E09F98A328BEFD5000506FBE /* VirtualDisplayDescriptor.m in Sources */,
+				E09F98A728BF113200506FBE /* VirtualDisplaySettings.m in Sources */,
+				E01D7684288E82D40011E188 /* VirtualDisplayManager.m in Sources */,
+				E09F98AB28BF15FA00506FBE /* VirtualDisplayMode.m in Sources */,
+				E01D7687288E82D40011E188 /* DisplayDefinition.m in Sources */,
+				E01D7685288E82D40011E188 /* DisplayResolution.m in Sources */,
+				E01D7681288E82D40011E188 /* VirtualDisplay.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E01D7651288E806A0011E188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E01D7652288E806A0011E188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E01D7654288E806A0011E188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86B4C2B77ABE348B4E9F79BF /* Pods-VirtualDisplay.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KM56KD59W4;
+				EXCLUDED_ARCHS = "";
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)/includ";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E01D7655288E806A0011E188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E2F62F076C80393C997A863 /* Pods-VirtualDisplay.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KM56KD59W4;
+				EXCLUDED_ARCHS = "";
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)/includ";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E01D7645288E806A0011E188 /* Build configuration list for PBXProject "VirtualDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E01D7651288E806A0011E188 /* Debug */,
+				E01D7652288E806A0011E188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E01D7653288E806A0011E188 /* Build configuration list for PBXNativeTarget "VirtualDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E01D7654288E806A0011E188 /* Debug */,
+				E01D7655288E806A0011E188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E01D7642288E806A0011E188 /* Project object */;
+}

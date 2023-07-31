@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		082878A11DC1D74F00817A2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 082878A01DC1D74F00817A2F /* main.m */; };
+		082878A41DC1D74F00817A2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 082878A31DC1D74F00817A2F /* AppDelegate.m */; };
+		082878A71DC1D74F00817A2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 082878A61DC1D74F00817A2F /* ViewController.m */; };
+		082878AA1DC1D74F00817A2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 082878A81DC1D74F00817A2F /* Main.storyboard */; };
+		082878AC1DC1D74F00817A2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 082878AB1DC1D74F00817A2F /* Assets.xcassets */; };
+		082878AF1DC1D74F00817A2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 082878AD1DC1D74F00817A2F /* LaunchScreen.storyboard */; };
+		082878BA1DC1D74F00817A2F /* YMEmojiTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 082878B91DC1D74F00817A2F /* YMEmojiTestTests.m */; };
+		082878C51DC1D74F00817A2F /* YMEmojiTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 082878C41DC1D74F00817A2F /* YMEmojiTestUITests.m */; };
+		0828792F1DC1DA0E00817A2F /* YM_EmojiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 082879261DC1DA0E00817A2F /* YM_EmojiView.m */; };
+		08895BF71DC482FB0087F5FC /* emoji.json in Resources */ = {isa = PBXBuildFile; fileRef = 08895BF61DC482FB0087F5FC /* emoji.json */; };
+		08895BFA1DC4833D0087F5FC /* YM_EmojiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 08895BF91DC4833D0087F5FC /* YM_EmojiModel.m */; };
+		08DDD4B220D8B38B00F80339 /* YM_FaceTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DDD4B120D8B38B00F80339 /* YM_FaceTypeCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		082878B61DC1D74F00817A2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 082878941DC1D74F00817A2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0828789B1DC1D74F00817A2F;
+			remoteInfo = YMEmojiTest;
+		};
+		082878C11DC1D74F00817A2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 082878941DC1D74F00817A2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0828789B1DC1D74F00817A2F;
+			remoteInfo = YMEmojiTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0828789C1DC1D74F00817A2F /* YMEmojiTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMEmojiTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		082878A01DC1D74F00817A2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		082878A21DC1D74F00817A2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		082878A31DC1D74F00817A2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		082878A51DC1D74F00817A2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		082878A61DC1D74F00817A2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		082878A91DC1D74F00817A2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		082878AB1DC1D74F00817A2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		082878AE1DC1D74F00817A2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		082878B01DC1D74F00817A2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		082878B51DC1D74F00817A2F /* YMEmojiTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMEmojiTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		082878B91DC1D74F00817A2F /* YMEmojiTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMEmojiTestTests.m; sourceTree = "<group>"; };
+		082878BB1DC1D74F00817A2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		082878C01DC1D74F00817A2F /* YMEmojiTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMEmojiTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		082878C41DC1D74F00817A2F /* YMEmojiTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMEmojiTestUITests.m; sourceTree = "<group>"; };
+		082878C61DC1D74F00817A2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		082879251DC1DA0E00817A2F /* YM_EmojiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YM_EmojiView.h; sourceTree = "<group>"; };
+		082879261DC1DA0E00817A2F /* YM_EmojiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YM_EmojiView.m; sourceTree = "<group>"; };
+		08895BF61DC482FB0087F5FC /* emoji.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = emoji.json; sourceTree = "<group>"; };
+		08895BF81DC4833D0087F5FC /* YM_EmojiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YM_EmojiModel.h; sourceTree = "<group>"; };
+		08895BF91DC4833D0087F5FC /* YM_EmojiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YM_EmojiModel.m; sourceTree = "<group>"; };
+		08DDD4B020D8B38B00F80339 /* YM_FaceTypeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YM_FaceTypeCell.h; sourceTree = "<group>"; };
+		08DDD4B120D8B38B00F80339 /* YM_FaceTypeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YM_FaceTypeCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		082878991DC1D74F00817A2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		082878B21DC1D74F00817A2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		082878BD1DC1D74F00817A2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		082878931DC1D74F00817A2F = {
+			isa = PBXGroup;
+			children = (
+				0828789E1DC1D74F00817A2F /* YMEmojiTest */,
+				082878B81DC1D74F00817A2F /* YMEmojiTestTests */,
+				082878C31DC1D74F00817A2F /* YMEmojiTestUITests */,
+				0828789D1DC1D74F00817A2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0828789D1DC1D74F00817A2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0828789C1DC1D74F00817A2F /* YMEmojiTest.app */,
+				082878B51DC1D74F00817A2F /* YMEmojiTestTests.xctest */,
+				082878C01DC1D74F00817A2F /* YMEmojiTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0828789E1DC1D74F00817A2F /* YMEmojiTest */ = {
+			isa = PBXGroup;
+			children = (
+				082878D21DC1D7B400817A2F /* YMEmojiView */,
+				082878A21DC1D74F00817A2F /* AppDelegate.h */,
+				082878A31DC1D74F00817A2F /* AppDelegate.m */,
+				082878A51DC1D74F00817A2F /* ViewController.h */,
+				082878A61DC1D74F00817A2F /* ViewController.m */,
+				082878A81DC1D74F00817A2F /* Main.storyboard */,
+				082878AB1DC1D74F00817A2F /* Assets.xcassets */,
+				082878AD1DC1D74F00817A2F /* LaunchScreen.storyboard */,
+				082878B01DC1D74F00817A2F /* Info.plist */,
+				0828789F1DC1D74F00817A2F /* Supporting Files */,
+			);
+			path = YMEmojiTest;
+			sourceTree = "<group>";
+		};
+		0828789F1DC1D74F00817A2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				082878A01DC1D74F00817A2F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		082878B81DC1D74F00817A2F /* YMEmojiTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				082878B91DC1D74F00817A2F /* YMEmojiTestTests.m */,
+				082878BB1DC1D74F00817A2F /* Info.plist */,
+			);
+			path = YMEmojiTestTests;
+			sourceTree = "<group>";
+		};
+		082878C31DC1D74F00817A2F /* YMEmojiTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				082878C41DC1D74F00817A2F /* YMEmojiTestUITests.m */,
+				082878C61DC1D74F00817A2F /* Info.plist */,
+			);
+			path = YMEmojiTestUITests;
+			sourceTree = "<group>";
+		};
+		082878D21DC1D7B400817A2F /* YMEmojiView */ = {
+			isa = PBXGroup;
+			children = (
+				08DDD4AF20D8B36B00F80339 /* Cell */,
+				082879251DC1DA0E00817A2F /* YM_EmojiView.h */,
+				082879261DC1DA0E00817A2F /* YM_EmojiView.m */,
+				08895BF81DC4833D0087F5FC /* YM_EmojiModel.h */,
+				08895BF91DC4833D0087F5FC /* YM_EmojiModel.m */,
+				08895BF61DC482FB0087F5FC /* emoji.json */,
+			);
+			path = YMEmojiView;
+			sourceTree = "<group>";
+		};
+		08DDD4AF20D8B36B00F80339 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				08DDD4B020D8B38B00F80339 /* YM_FaceTypeCell.h */,
+				08DDD4B120D8B38B00F80339 /* YM_FaceTypeCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0828789B1DC1D74F00817A2F /* YMEmojiTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 082878C91DC1D74F00817A2F /* Build configuration list for PBXNativeTarget "YMEmojiTest" */;
+			buildPhases = (
+				082878981DC1D74F00817A2F /* Sources */,
+				082878991DC1D74F00817A2F /* Frameworks */,
+				0828789A1DC1D74F00817A2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMEmojiTest;
+			productName = YMEmojiTest;
+			productReference = 0828789C1DC1D74F00817A2F /* YMEmojiTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		082878B41DC1D74F00817A2F /* YMEmojiTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 082878CC1DC1D74F00817A2F /* Build configuration list for PBXNativeTarget "YMEmojiTestTests" */;
+			buildPhases = (
+				082878B11DC1D74F00817A2F /* Sources */,
+				082878B21DC1D74F00817A2F /* Frameworks */,
+				082878B31DC1D74F00817A2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				082878B71DC1D74F00817A2F /* PBXTargetDependency */,
+			);
+			name = YMEmojiTestTests;
+			productName = YMEmojiTestTests;
+			productReference = 082878B51DC1D74F00817A2F /* YMEmojiTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		082878BF1DC1D74F00817A2F /* YMEmojiTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 082878CF1DC1D74F00817A2F /* Build configuration list for PBXNativeTarget "YMEmojiTestUITests" */;
+			buildPhases = (
+				082878BC1DC1D74F00817A2F /* Sources */,
+				082878BD1DC1D74F00817A2F /* Frameworks */,
+				082878BE1DC1D74F00817A2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				082878C21DC1D74F00817A2F /* PBXTargetDependency */,
+			);
+			name = YMEmojiTestUITests;
+			productName = YMEmojiTestUITests;
+			productReference = 082878C01DC1D74F00817A2F /* YMEmojiTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		082878941DC1D74F00817A2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "黄玉洲";
+				TargetAttributes = {
+					0828789B1DC1D74F00817A2F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = B4HG585NJU;
+						ProvisioningStyle = Automatic;
+					};
+					082878B41DC1D74F00817A2F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0828789B1DC1D74F00817A2F;
+					};
+					082878BF1DC1D74F00817A2F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0828789B1DC1D74F00817A2F;
+					};
+				};
+			};
+			buildConfigurationList = 082878971DC1D74F00817A2F /* Build configuration list for PBXProject "YMEmojiTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 082878931DC1D74F00817A2F;
+			productRefGroup = 0828789D1DC1D74F00817A2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0828789B1DC1D74F00817A2F /* YMEmojiTest */,
+				082878B41DC1D74F00817A2F /* YMEmojiTestTests */,
+				082878BF1DC1D74F00817A2F /* YMEmojiTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0828789A1DC1D74F00817A2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082878AF1DC1D74F00817A2F /* LaunchScreen.storyboard in Resources */,
+				082878AC1DC1D74F00817A2F /* Assets.xcassets in Resources */,
+				08895BF71DC482FB0087F5FC /* emoji.json in Resources */,
+				082878AA1DC1D74F00817A2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		082878B31DC1D74F00817A2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		082878BE1DC1D74F00817A2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		082878981DC1D74F00817A2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082878A71DC1D74F00817A2F /* ViewController.m in Sources */,
+				08895BFA1DC4833D0087F5FC /* YM_EmojiModel.m in Sources */,
+				08DDD4B220D8B38B00F80339 /* YM_FaceTypeCell.m in Sources */,
+				082878A41DC1D74F00817A2F /* AppDelegate.m in Sources */,
+				0828792F1DC1DA0E00817A2F /* YM_EmojiView.m in Sources */,
+				082878A11DC1D74F00817A2F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		082878B11DC1D74F00817A2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082878BA1DC1D74F00817A2F /* YMEmojiTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		082878BC1DC1D74F00817A2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082878C51DC1D74F00817A2F /* YMEmojiTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		082878B71DC1D74F00817A2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0828789B1DC1D74F00817A2F /* YMEmojiTest */;
+			targetProxy = 082878B61DC1D74F00817A2F /* PBXContainerItemProxy */;
+		};
+		082878C21DC1D74F00817A2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0828789B1DC1D74F00817A2F /* YMEmojiTest */;
+			targetProxy = 082878C11DC1D74F00817A2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		082878A81DC1D74F00817A2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				082878A91DC1D74F00817A2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		082878AD1DC1D74F00817A2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				082878AE1DC1D74F00817A2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		082878C71DC1D74F00817A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		082878C81DC1D74F00817A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		082878CA1DC1D74F00817A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = B4HG585NJU;
+				INFOPLIST_FILE = YMEmojiTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huangyuzhou.YMEmojiTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		082878CB1DC1D74F00817A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = B4HG585NJU;
+				INFOPLIST_FILE = YMEmojiTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huangyuzhou.YMEmojiTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		082878CD1DC1D74F00817A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YMEmojiTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huangyuzhou.YMEmojiTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMEmojiTest.app/YMEmojiTest";
+			};
+			name = Debug;
+		};
+		082878CE1DC1D74F00817A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YMEmojiTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huangyuzhou.YMEmojiTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMEmojiTest.app/YMEmojiTest";
+			};
+			name = Release;
+		};
+		082878D01DC1D74F00817A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YMEmojiTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huangyuzhou.YMEmojiTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YMEmojiTest;
+			};
+			name = Debug;
+		};
+		082878D11DC1D74F00817A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YMEmojiTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huangyuzhou.YMEmojiTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YMEmojiTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		082878971DC1D74F00817A2F /* Build configuration list for PBXProject "YMEmojiTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				082878C71DC1D74F00817A2F /* Debug */,
+				082878C81DC1D74F00817A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		082878C91DC1D74F00817A2F /* Build configuration list for PBXNativeTarget "YMEmojiTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				082878CA1DC1D74F00817A2F /* Debug */,
+				082878CB1DC1D74F00817A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		082878CC1DC1D74F00817A2F /* Build configuration list for PBXNativeTarget "YMEmojiTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				082878CD1DC1D74F00817A2F /* Debug */,
+				082878CE1DC1D74F00817A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		082878CF1DC1D74F00817A2F /* Build configuration list for PBXNativeTarget "YMEmojiTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				082878D01DC1D74F00817A2F /* Debug */,
+				082878D11DC1D74F00817A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 082878941DC1D74F00817A2F /* Project object */;
+}

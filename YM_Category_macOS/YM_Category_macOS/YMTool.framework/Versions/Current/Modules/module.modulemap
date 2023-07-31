@@ -1,0 +1,6 @@
+framework module YMTool {
+  umbrella header "YMTool.h"
+
+  export *
+  module * { export * }
+}

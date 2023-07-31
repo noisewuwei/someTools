@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63B35243218955EC005A94E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B35242218955EC005A94E4 /* AppDelegate.m */; };
+		63B35246218955EC005A94E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B35245218955EC005A94E4 /* ViewController.m */; };
+		63B35249218955EC005A94E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B35247218955EC005A94E4 /* Main.storyboard */; };
+		63B3524B218955ED005A94E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B3524A218955ED005A94E4 /* Assets.xcassets */; };
+		63B3524E218955ED005A94E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B3524C218955ED005A94E4 /* LaunchScreen.storyboard */; };
+		63B35251218955ED005A94E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B35250218955ED005A94E4 /* main.m */; };
+		63B3525B218955ED005A94E4 /* YM_PayPasswordViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B3525A218955ED005A94E4 /* YM_PayPasswordViewTests.m */; };
+		63B35266218955ED005A94E4 /* YM_PayPasswordViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B35265218955ED005A94E4 /* YM_PayPasswordViewUITests.m */; };
+		63B352762189565E005A94E4 /* YM_PayPasswordAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B352752189565E005A94E4 /* YM_PayPasswordAlertView.m */; };
+		63B3527921895744005A94E4 /* YM_PasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B3527821895744005A94E4 /* YM_PasswordInputView.m */; };
+		63B3527C21895783005A94E4 /* UIView+YMPwdExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B3527A21895783005A94E4 /* UIView+YMPwdExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63B35257218955ED005A94E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63B35236218955EC005A94E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63B3523D218955EC005A94E4;
+			remoteInfo = YM_PayPasswordView;
+		};
+		63B35262218955ED005A94E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63B35236218955EC005A94E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63B3523D218955EC005A94E4;
+			remoteInfo = YM_PayPasswordView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63B3523E218955EC005A94E4 /* YM_PayPasswordView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YM_PayPasswordView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B35241218955EC005A94E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63B35242218955EC005A94E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63B35244218955EC005A94E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		63B35245218955EC005A94E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		63B35248218955EC005A94E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63B3524A218955ED005A94E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63B3524D218955ED005A94E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63B3524F218955ED005A94E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B35250218955ED005A94E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63B35256218955ED005A94E4 /* YM_PayPasswordViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YM_PayPasswordViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B3525A218955ED005A94E4 /* YM_PayPasswordViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YM_PayPasswordViewTests.m; sourceTree = "<group>"; };
+		63B3525C218955ED005A94E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B35261218955ED005A94E4 /* YM_PayPasswordViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YM_PayPasswordViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B35265218955ED005A94E4 /* YM_PayPasswordViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YM_PayPasswordViewUITests.m; sourceTree = "<group>"; };
+		63B35267218955ED005A94E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B352742189565E005A94E4 /* YM_PayPasswordAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YM_PayPasswordAlertView.h; sourceTree = "<group>"; };
+		63B352752189565E005A94E4 /* YM_PayPasswordAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YM_PayPasswordAlertView.m; sourceTree = "<group>"; };
+		63B3527721895744005A94E4 /* YM_PasswordInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YM_PasswordInputView.h; sourceTree = "<group>"; };
+		63B3527821895744005A94E4 /* YM_PasswordInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YM_PasswordInputView.m; sourceTree = "<group>"; };
+		63B3527A21895783005A94E4 /* UIView+YMPwdExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YMPwdExtension.m"; sourceTree = "<group>"; };
+		63B3527B21895783005A94E4 /* UIView+YMPwdExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YMPwdExtension.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63B3523B218955EC005A94E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B35253218955ED005A94E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B3525E218955ED005A94E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63B35235218955EC005A94E4 = {
+			isa = PBXGroup;
+			children = (
+				63B35240218955EC005A94E4 /* YM_PayPasswordView */,
+				63B35259218955ED005A94E4 /* YM_PayPasswordViewTests */,
+				63B35264218955ED005A94E4 /* YM_PayPasswordViewUITests */,
+				63B3523F218955EC005A94E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63B3523F218955EC005A94E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63B3523E218955EC005A94E4 /* YM_PayPasswordView.app */,
+				63B35256218955ED005A94E4 /* YM_PayPasswordViewTests.xctest */,
+				63B35261218955ED005A94E4 /* YM_PayPasswordViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63B35240218955EC005A94E4 /* YM_PayPasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				63B3527321895636005A94E4 /* View */,
+				63B35241218955EC005A94E4 /* AppDelegate.h */,
+				63B35242218955EC005A94E4 /* AppDelegate.m */,
+				63B35244218955EC005A94E4 /* ViewController.h */,
+				63B35245218955EC005A94E4 /* ViewController.m */,
+				63B35247218955EC005A94E4 /* Main.storyboard */,
+				63B3524A218955ED005A94E4 /* Assets.xcassets */,
+				63B3524C218955ED005A94E4 /* LaunchScreen.storyboard */,
+				63B3524F218955ED005A94E4 /* Info.plist */,
+				63B35250218955ED005A94E4 /* main.m */,
+			);
+			path = YM_PayPasswordView;
+			sourceTree = "<group>";
+		};
+		63B35259218955ED005A94E4 /* YM_PayPasswordViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				63B3525A218955ED005A94E4 /* YM_PayPasswordViewTests.m */,
+				63B3525C218955ED005A94E4 /* Info.plist */,
+			);
+			path = YM_PayPasswordViewTests;
+			sourceTree = "<group>";
+		};
+		63B35264218955ED005A94E4 /* YM_PayPasswordViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63B35265218955ED005A94E4 /* YM_PayPasswordViewUITests.m */,
+				63B35267218955ED005A94E4 /* Info.plist */,
+			);
+			path = YM_PayPasswordViewUITests;
+			sourceTree = "<group>";
+		};
+		63B3527321895636005A94E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63B3527B21895783005A94E4 /* UIView+YMPwdExtension.h */,
+				63B3527A21895783005A94E4 /* UIView+YMPwdExtension.m */,
+				63B352742189565E005A94E4 /* YM_PayPasswordAlertView.h */,
+				63B352752189565E005A94E4 /* YM_PayPasswordAlertView.m */,
+				63B3527721895744005A94E4 /* YM_PasswordInputView.h */,
+				63B3527821895744005A94E4 /* YM_PasswordInputView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63B3523D218955EC005A94E4 /* YM_PayPasswordView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B3526A218955ED005A94E4 /* Build configuration list for PBXNativeTarget "YM_PayPasswordView" */;
+			buildPhases = (
+				63B3523A218955EC005A94E4 /* Sources */,
+				63B3523B218955EC005A94E4 /* Frameworks */,
+				63B3523C218955EC005A94E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YM_PayPasswordView;
+			productName = YM_PayPasswordView;
+			productReference = 63B3523E218955EC005A94E4 /* YM_PayPasswordView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63B35255218955ED005A94E4 /* YM_PayPasswordViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B3526D218955ED005A94E4 /* Build configuration list for PBXNativeTarget "YM_PayPasswordViewTests" */;
+			buildPhases = (
+				63B35252218955ED005A94E4 /* Sources */,
+				63B35253218955ED005A94E4 /* Frameworks */,
+				63B35254218955ED005A94E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63B35258218955ED005A94E4 /* PBXTargetDependency */,
+			);
+			name = YM_PayPasswordViewTests;
+			productName = YM_PayPasswordViewTests;
+			productReference = 63B35256218955ED005A94E4 /* YM_PayPasswordViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63B35260218955ED005A94E4 /* YM_PayPasswordViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B35270218955ED005A94E4 /* Build configuration list for PBXNativeTarget "YM_PayPasswordViewUITests" */;
+			buildPhases = (
+				63B3525D218955ED005A94E4 /* Sources */,
+				63B3525E218955ED005A94E4 /* Frameworks */,
+				63B3525F218955ED005A94E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63B35263218955ED005A94E4 /* PBXTargetDependency */,
+			);
+			name = YM_PayPasswordViewUITests;
+			productName = YM_PayPasswordViewUITests;
+			productReference = 63B35261218955ED005A94E4 /* YM_PayPasswordViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63B35236218955EC005A94E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = huangyuzhou;
+				TargetAttributes = {
+					63B3523D218955EC005A94E4 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					63B35255218955ED005A94E4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 63B3523D218955EC005A94E4;
+					};
+					63B35260218955ED005A94E4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 63B3523D218955EC005A94E4;
+					};
+				};
+			};
+			buildConfigurationList = 63B35239218955EC005A94E4 /* Build configuration list for PBXProject "YM_PayPasswordView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63B35235218955EC005A94E4;
+			productRefGroup = 63B3523F218955EC005A94E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63B3523D218955EC005A94E4 /* YM_PayPasswordView */,
+				63B35255218955ED005A94E4 /* YM_PayPasswordViewTests */,
+				63B35260218955ED005A94E4 /* YM_PayPasswordViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63B3523C218955EC005A94E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B3524E218955ED005A94E4 /* LaunchScreen.storyboard in Resources */,
+				63B3524B218955ED005A94E4 /* Assets.xcassets in Resources */,
+				63B35249218955EC005A94E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B35254218955ED005A94E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B3525F218955ED005A94E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63B3523A218955EC005A94E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B3527C21895783005A94E4 /* UIView+YMPwdExtension.m in Sources */,
+				63B35246218955EC005A94E4 /* ViewController.m in Sources */,
+				63B3527921895744005A94E4 /* YM_PasswordInputView.m in Sources */,
+				63B352762189565E005A94E4 /* YM_PayPasswordAlertView.m in Sources */,
+				63B35251218955ED005A94E4 /* main.m in Sources */,
+				63B35243218955EC005A94E4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B35252218955ED005A94E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B3525B218955ED005A94E4 /* YM_PayPasswordViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B3525D218955ED005A94E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B35266218955ED005A94E4 /* YM_PayPasswordViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63B35258218955ED005A94E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63B3523D218955EC005A94E4 /* YM_PayPasswordView */;
+			targetProxy = 63B35257218955ED005A94E4 /* PBXContainerItemProxy */;
+		};
+		63B35263218955ED005A94E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63B3523D218955EC005A94E4 /* YM_PayPasswordView */;
+			targetProxy = 63B35262218955ED005A94E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63B35247218955EC005A94E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63B35248218955EC005A94E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63B3524C218955ED005A94E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63B3524D218955ED005A94E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63B35268218955ED005A94E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63B35269218955ED005A94E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63B3526B218955ED005A94E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YM_PayPasswordView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "huangyuzhou.YM-PayPasswordView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63B3526C218955ED005A94E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YM_PayPasswordView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "huangyuzhou.YM-PayPasswordView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63B3526E218955ED005A94E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YM_PayPasswordViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "huangyuzhou.YM-PayPasswordViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YM_PayPasswordView.app/YM_PayPasswordView";
+			};
+			name = Debug;
+		};
+		63B3526F218955ED005A94E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YM_PayPasswordViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "huangyuzhou.YM-PayPasswordViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YM_PayPasswordView.app/YM_PayPasswordView";
+			};
+			name = Release;
+		};
+		63B35271218955ED005A94E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YM_PayPasswordViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "huangyuzhou.YM-PayPasswordViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YM_PayPasswordView;
+			};
+			name = Debug;
+		};
+		63B35272218955ED005A94E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YM_PayPasswordViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "huangyuzhou.YM-PayPasswordViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YM_PayPasswordView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63B35239218955EC005A94E4 /* Build configuration list for PBXProject "YM_PayPasswordView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B35268218955ED005A94E4 /* Debug */,
+				63B35269218955ED005A94E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B3526A218955ED005A94E4 /* Build configuration list for PBXNativeTarget "YM_PayPasswordView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B3526B218955ED005A94E4 /* Debug */,
+				63B3526C218955ED005A94E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B3526D218955ED005A94E4 /* Build configuration list for PBXNativeTarget "YM_PayPasswordViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B3526E218955ED005A94E4 /* Debug */,
+				63B3526F218955ED005A94E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B35270218955ED005A94E4 /* Build configuration list for PBXNativeTarget "YM_PayPasswordViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B35271218955ED005A94E4 /* Debug */,
+				63B35272218955ED005A94E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63B35236218955EC005A94E4 /* Project object */;
+}

@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08ED978D2133FB740096229F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08ED978C2133FB740096229F /* AppDelegate.m */; };
+		08ED97902133FB740096229F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08ED978F2133FB740096229F /* ViewController.m */; };
+		08ED97932133FB740096229F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08ED97912133FB740096229F /* Main.storyboard */; };
+		08ED97952133FB760096229F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08ED97942133FB760096229F /* Assets.xcassets */; };
+		08ED97982133FB760096229F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08ED97962133FB760096229F /* LaunchScreen.storyboard */; };
+		08ED979B2133FB760096229F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08ED979A2133FB760096229F /* main.m */; };
+		08ED97A52133FB760096229F /* YM_BifurcationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08ED97A42133FB760096229F /* YM_BifurcationTests.m */; };
+		08ED97B02133FB760096229F /* YM_BifurcationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08ED97AF2133FB760096229F /* YM_BifurcationUITests.m */; };
+		08ED97CF2133FBC50096229F /* YM_BifurcationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 08ED97C22133FBC50096229F /* YM_BifurcationModel.m */; };
+		08ED97D02133FBC50096229F /* YM_UpwardScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08ED97C32133FBC50096229F /* YM_UpwardScoreView.m */; };
+		08ED97D12133FBC50096229F /* YM_DownScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08ED97C42133FBC50096229F /* YM_DownScoreView.m */; };
+		08ED97D22133FBC50096229F /* YM_UpwardBifurcationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08ED97C52133FBC50096229F /* YM_UpwardBifurcationView.m */; };
+		08ED97D32133FBC50096229F /* YM_DownBifurcationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08ED97C72133FBC50096229F /* YM_DownBifurcationView.m */; };
+		08ED97D42133FBC50096229F /* YM_TeamView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08ED97C82133FBC50096229F /* YM_TeamView.m */; };
+		08ED97D52133FBC50096229F /* YM_PromotionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08ED97CB2133FBC50096229F /* YM_PromotionView.m */; };
+		08ED97D62133FBC50096229F /* YM_FinalsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08ED97CD2133FBC50096229F /* YM_FinalsView.m */; };
+		65ECCFA1A69708A34F21D60B /* libPods-YM_Bifurcation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7978EAE49EAACF35F44633A7 /* libPods-YM_Bifurcation.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08ED97A12133FB760096229F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08ED97802133FB740096229F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08ED97872133FB740096229F;
+			remoteInfo = YM_Bifurcation;
+		};
+		08ED97AC2133FB760096229F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08ED97802133FB740096229F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08ED97872133FB740096229F;
+			remoteInfo = YM_Bifurcation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08ED97882133FB740096229F /* YM_Bifurcation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YM_Bifurcation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08ED978B2133FB740096229F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		08ED978C2133FB740096229F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		08ED978E2133FB740096229F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		08ED978F2133FB740096229F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		08ED97922133FB740096229F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08ED97942133FB760096229F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08ED97972133FB760096229F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08ED97992133FB760096229F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08ED979A2133FB760096229F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08ED97A02133FB760096229F /* YM_BifurcationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YM_BifurcationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08ED97A42133FB760096229F /* YM_BifurcationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YM_BifurcationTests.m; sourceTree = "<group>"; };
+		08ED97A62133FB760096229F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08ED97AB2133FB760096229F /* YM_BifurcationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YM_BifurcationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08ED97AF2133FB760096229F /* YM_BifurcationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YM_BifurcationUITests.m; sourceTree = "<group>"; };
+		08ED97B12133FB760096229F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08ED97BE2133FBC50096229F /* YM_BifurcationConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YM_BifurcationConfig.h; sourceTree = "<group>"; };
+		08ED97BF2133FBC50096229F /* YM_TeamView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YM_TeamView.h; sourceTree = "<group>"; };
+		08ED97C02133FBC50096229F /* YM_DownBifurcationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YM_DownBifurcationView.h; sourceTree = "<group>"; };
+		08ED97C12133FBC50096229F /* YM_PromotionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YM_PromotionView.h; sourceTree = "<group>"; };
+		08ED97C22133FBC50096229F /* YM_BifurcationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YM_BifurcationModel.m; sourceTree = "<group>"; };
+		08ED97C32133FBC50096229F /* YM_UpwardScoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YM_UpwardScoreView.m; sourceTree = "<group>"; };
+		08ED97C42133FBC50096229F /* YM_DownScoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YM_DownScoreView.m; sourceTree = "<group>"; };
+		08ED97C52133FBC50096229F /* YM_UpwardBifurcationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YM_UpwardBifurcationView.m; sourceTree = "<group>"; };
+		08ED97C62133FBC50096229F /* YM_FinalsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YM_FinalsView.h; sourceTree = "<group>"; };
+		08ED97C72133FBC50096229F /* YM_DownBifurcationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YM_DownBifurcationView.m; sourceTree = "<group>"; };
+		08ED97C82133FBC50096229F /* YM_TeamView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YM_TeamView.m; sourceTree = "<group>"; };
+		08ED97C92133FBC50096229F /* YM_UpwardScoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YM_UpwardScoreView.h; sourceTree = "<group>"; };
+		08ED97CA2133FBC50096229F /* YM_BifurcationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YM_BifurcationModel.h; sourceTree = "<group>"; };
+		08ED97CB2133FBC50096229F /* YM_PromotionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YM_PromotionView.m; sourceTree = "<group>"; };
+		08ED97CC2133FBC50096229F /* YM_DownScoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YM_DownScoreView.h; sourceTree = "<group>"; };
+		08ED97CD2133FBC50096229F /* YM_FinalsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YM_FinalsView.m; sourceTree = "<group>"; };
+		08ED97CE2133FBC50096229F /* YM_UpwardBifurcationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YM_UpwardBifurcationView.h; sourceTree = "<group>"; };
+		40DD50F920D35CD88DFF08E1 /* Pods-YM_Bifurcation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YM_Bifurcation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YM_Bifurcation/Pods-YM_Bifurcation.debug.xcconfig"; sourceTree = "<group>"; };
+		7978EAE49EAACF35F44633A7 /* libPods-YM_Bifurcation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YM_Bifurcation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2BEA029391068DD26D01728 /* Pods-YM_Bifurcation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YM_Bifurcation.release.xcconfig"; path = "Pods/Target Support Files/Pods-YM_Bifurcation/Pods-YM_Bifurcation.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08ED97852133FB740096229F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65ECCFA1A69708A34F21D60B /* libPods-YM_Bifurcation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08ED979D2133FB760096229F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08ED97A82133FB760096229F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08ED977F2133FB740096229F = {
+			isa = PBXGroup;
+			children = (
+				08ED978A2133FB740096229F /* YM_Bifurcation */,
+				08ED97A32133FB760096229F /* YM_BifurcationTests */,
+				08ED97AE2133FB760096229F /* YM_BifurcationUITests */,
+				08ED97892133FB740096229F /* Products */,
+				979A2BA57C7A7471B505BC92 /* Pods */,
+				2C9C139D98BC9C11BBD65BCB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		08ED97892133FB740096229F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08ED97882133FB740096229F /* YM_Bifurcation.app */,
+				08ED97A02133FB760096229F /* YM_BifurcationTests.xctest */,
+				08ED97AB2133FB760096229F /* YM_BifurcationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08ED978A2133FB740096229F /* YM_Bifurcation */ = {
+			isa = PBXGroup;
+			children = (
+				08ED97BD2133FBC50096229F /* YMBifurcation */,
+				08ED978B2133FB740096229F /* AppDelegate.h */,
+				08ED978C2133FB740096229F /* AppDelegate.m */,
+				08ED978E2133FB740096229F /* ViewController.h */,
+				08ED978F2133FB740096229F /* ViewController.m */,
+				08ED97912133FB740096229F /* Main.storyboard */,
+				08ED97942133FB760096229F /* Assets.xcassets */,
+				08ED97962133FB760096229F /* LaunchScreen.storyboard */,
+				08ED97992133FB760096229F /* Info.plist */,
+				08ED979A2133FB760096229F /* main.m */,
+			);
+			path = YM_Bifurcation;
+			sourceTree = "<group>";
+		};
+		08ED97A32133FB760096229F /* YM_BifurcationTests */ = {
+			isa = PBXGroup;
+			children = (
+				08ED97A42133FB760096229F /* YM_BifurcationTests.m */,
+				08ED97A62133FB760096229F /* Info.plist */,
+			);
+			path = YM_BifurcationTests;
+			sourceTree = "<group>";
+		};
+		08ED97AE2133FB760096229F /* YM_BifurcationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08ED97AF2133FB760096229F /* YM_BifurcationUITests.m */,
+				08ED97B12133FB760096229F /* Info.plist */,
+			);
+			path = YM_BifurcationUITests;
+			sourceTree = "<group>";
+		};
+		08ED97BD2133FBC50096229F /* YMBifurcation */ = {
+			isa = PBXGroup;
+			children = (
+				08ED97BE2133FBC50096229F /* YM_BifurcationConfig.h */,
+				08ED97BF2133FBC50096229F /* YM_TeamView.h */,
+				08ED97C02133FBC50096229F /* YM_DownBifurcationView.h */,
+				08ED97C12133FBC50096229F /* YM_PromotionView.h */,
+				08ED97C22133FBC50096229F /* YM_BifurcationModel.m */,
+				08ED97C32133FBC50096229F /* YM_UpwardScoreView.m */,
+				08ED97C42133FBC50096229F /* YM_DownScoreView.m */,
+				08ED97C52133FBC50096229F /* YM_UpwardBifurcationView.m */,
+				08ED97C62133FBC50096229F /* YM_FinalsView.h */,
+				08ED97C72133FBC50096229F /* YM_DownBifurcationView.m */,
+				08ED97C82133FBC50096229F /* YM_TeamView.m */,
+				08ED97C92133FBC50096229F /* YM_UpwardScoreView.h */,
+				08ED97CA2133FBC50096229F /* YM_BifurcationModel.h */,
+				08ED97CB2133FBC50096229F /* YM_PromotionView.m */,
+				08ED97CC2133FBC50096229F /* YM_DownScoreView.h */,
+				08ED97CD2133FBC50096229F /* YM_FinalsView.m */,
+				08ED97CE2133FBC50096229F /* YM_UpwardBifurcationView.h */,
+			);
+			path = YMBifurcation;
+			sourceTree = "<group>";
+		};
+		2C9C139D98BC9C11BBD65BCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7978EAE49EAACF35F44633A7 /* libPods-YM_Bifurcation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		979A2BA57C7A7471B505BC92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40DD50F920D35CD88DFF08E1 /* Pods-YM_Bifurcation.debug.xcconfig */,
+				A2BEA029391068DD26D01728 /* Pods-YM_Bifurcation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08ED97872133FB740096229F /* YM_Bifurcation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08ED97B42133FB760096229F /* Build configuration list for PBXNativeTarget "YM_Bifurcation" */;
+			buildPhases = (
+				DA6F715738875301B2CEF58E /* [CP] Check Pods Manifest.lock */,
+				08ED97842133FB740096229F /* Sources */,
+				08ED97852133FB740096229F /* Frameworks */,
+				08ED97862133FB740096229F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YM_Bifurcation;
+			productName = YM_Bifurcation;
+			productReference = 08ED97882133FB740096229F /* YM_Bifurcation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08ED979F2133FB760096229F /* YM_BifurcationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08ED97B72133FB760096229F /* Build configuration list for PBXNativeTarget "YM_BifurcationTests" */;
+			buildPhases = (
+				08ED979C2133FB760096229F /* Sources */,
+				08ED979D2133FB760096229F /* Frameworks */,
+				08ED979E2133FB760096229F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08ED97A22133FB760096229F /* PBXTargetDependency */,
+			);
+			name = YM_BifurcationTests;
+			productName = YM_BifurcationTests;
+			productReference = 08ED97A02133FB760096229F /* YM_BifurcationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08ED97AA2133FB760096229F /* YM_BifurcationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08ED97BA2133FB760096229F /* Build configuration list for PBXNativeTarget "YM_BifurcationUITests" */;
+			buildPhases = (
+				08ED97A72133FB760096229F /* Sources */,
+				08ED97A82133FB760096229F /* Frameworks */,
+				08ED97A92133FB760096229F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08ED97AD2133FB760096229F /* PBXTargetDependency */,
+			);
+			name = YM_BifurcationUITests;
+			productName = YM_BifurcationUITests;
+			productReference = 08ED97AB2133FB760096229F /* YM_BifurcationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08ED97802133FB740096229F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = huangyuzhou;
+				TargetAttributes = {
+					08ED97872133FB740096229F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					08ED979F2133FB760096229F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 08ED97872133FB740096229F;
+					};
+					08ED97AA2133FB760096229F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 08ED97872133FB740096229F;
+					};
+				};
+			};
+			buildConfigurationList = 08ED97832133FB740096229F /* Build configuration list for PBXProject "YM_Bifurcation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08ED977F2133FB740096229F;
+			productRefGroup = 08ED97892133FB740096229F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08ED97872133FB740096229F /* YM_Bifurcation */,
+				08ED979F2133FB760096229F /* YM_BifurcationTests */,
+				08ED97AA2133FB760096229F /* YM_BifurcationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08ED97862133FB740096229F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08ED97982133FB760096229F /* LaunchScreen.storyboard in Resources */,
+				08ED97952133FB760096229F /* Assets.xcassets in Resources */,
+				08ED97932133FB740096229F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08ED979E2133FB760096229F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08ED97A92133FB760096229F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DA6F715738875301B2CEF58E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YM_Bifurcation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08ED97842133FB740096229F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08ED97CF2133FBC50096229F /* YM_BifurcationModel.m in Sources */,
+				08ED97D32133FBC50096229F /* YM_DownBifurcationView.m in Sources */,
+				08ED97D52133FBC50096229F /* YM_PromotionView.m in Sources */,
+				08ED97902133FB740096229F /* ViewController.m in Sources */,
+				08ED97D22133FBC50096229F /* YM_UpwardBifurcationView.m in Sources */,
+				08ED979B2133FB760096229F /* main.m in Sources */,
+				08ED97D62133FBC50096229F /* YM_FinalsView.m in Sources */,
+				08ED97D42133FBC50096229F /* YM_TeamView.m in Sources */,
+				08ED97D12133FBC50096229F /* YM_DownScoreView.m in Sources */,
+				08ED978D2133FB740096229F /* AppDelegate.m in Sources */,
+				08ED97D02133FBC50096229F /* YM_UpwardScoreView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08ED979C2133FB760096229F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08ED97A52133FB760096229F /* YM_BifurcationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08ED97A72133FB760096229F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08ED97B02133FB760096229F /* YM_BifurcationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08ED97A22133FB760096229F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08ED97872133FB740096229F /* YM_Bifurcation */;
+			targetProxy = 08ED97A12133FB760096229F /* PBXContainerItemProxy */;
+		};
+		08ED97AD2133FB760096229F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08ED97872133FB740096229F /* YM_Bifurcation */;
+			targetProxy = 08ED97AC2133FB760096229F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08ED97912133FB740096229F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08ED97922133FB740096229F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08ED97962133FB760096229F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08ED97972133FB760096229F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08ED97B22133FB760096229F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		08ED97B32133FB760096229F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08ED97B52133FB760096229F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40DD50F920D35CD88DFF08E1 /* Pods-YM_Bifurcation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4HG585NJU;
+				INFOPLIST_FILE = YM_Bifurcation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hyz.YM-Bifurcation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08ED97B62133FB760096229F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2BEA029391068DD26D01728 /* Pods-YM_Bifurcation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4HG585NJU;
+				INFOPLIST_FILE = YM_Bifurcation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hyz.YM-Bifurcation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08ED97B82133FB760096229F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4HG585NJU;
+				INFOPLIST_FILE = YM_BifurcationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hyz.YM-BifurcationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YM_Bifurcation.app/YM_Bifurcation";
+			};
+			name = Debug;
+		};
+		08ED97B92133FB760096229F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4HG585NJU;
+				INFOPLIST_FILE = YM_BifurcationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hyz.YM-BifurcationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YM_Bifurcation.app/YM_Bifurcation";
+			};
+			name = Release;
+		};
+		08ED97BB2133FB760096229F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4HG585NJU;
+				INFOPLIST_FILE = YM_BifurcationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hyz.YM-BifurcationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YM_Bifurcation;
+			};
+			name = Debug;
+		};
+		08ED97BC2133FB760096229F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4HG585NJU;
+				INFOPLIST_FILE = YM_BifurcationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hyz.YM-BifurcationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YM_Bifurcation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08ED97832133FB740096229F /* Build configuration list for PBXProject "YM_Bifurcation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08ED97B22133FB760096229F /* Debug */,
+				08ED97B32133FB760096229F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08ED97B42133FB760096229F /* Build configuration list for PBXNativeTarget "YM_Bifurcation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08ED97B52133FB760096229F /* Debug */,
+				08ED97B62133FB760096229F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08ED97B72133FB760096229F /* Build configuration list for PBXNativeTarget "YM_BifurcationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08ED97B82133FB760096229F /* Debug */,
+				08ED97B92133FB760096229F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08ED97BA2133FB760096229F /* Build configuration list for PBXNativeTarget "YM_BifurcationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08ED97BB2133FB760096229F /* Debug */,
+				08ED97BC2133FB760096229F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08ED97802133FB740096229F /* Project object */;
+}
